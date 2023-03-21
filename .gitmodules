@@ -17,4 +17,5 @@
 	url = ../scylla-python3
 [submodule "tools/cqlsh"]
 	path = tools/cqlsh
-	url = ../scylla-cqlsh
+	url = https://github.com/syuu1228/scylla-cqlsh.git
+
