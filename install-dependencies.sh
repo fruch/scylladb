@@ -179,8 +179,6 @@ fedora_python3_packages=(
 # relying on this image.
 declare -A pip_packages=(
     [conan]=""
-    [scylla-driver]="==$(cat tools/cqlsh/requirements.txt | grep scylla-driver | cut -d= -f3)"
-    [geomet]=""
     [traceback-with-variables]=""
     [scylla-api-client]=""
 )
